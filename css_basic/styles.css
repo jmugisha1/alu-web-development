@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+
+main {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    background-color: blue;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto
+}
+
+.logo {
+    height: 25%;
+    width: 25%;
+}
